@@ -42577,7 +42577,7 @@ var er_ergulpvvv_mars = window.er_ergulpvvv_mars || {
                             e.detail(_)
                         }, 0)
                     } catch (e) {}
-                },
+                }, 
                 _on_EVENT_GET_LK_INFO: function(e) {
                     var _ = {};
                             current_js_time = (new Date).getTime(), true ? (_.valid_until = 9999e99999, _.type = 'e') : this.public_key_obj.dc + this.CONST_FREE_TIME_AFTER_INSTAL >= current_js_time && (_.valid_until = this.public_key_obj.dc + this.CONST_FREE_TIME_AFTER_INSTAL, _.type = "p"), _.is_still_valid = _.valid_until && _.valid_until > current_js_time;   _.valid_until = 9999e99999; 
