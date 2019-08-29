@@ -34289,7 +34289,7 @@ var er_ergulpvvv_local_storage_db = window.er_ergulpvvv_local_storage_db || {
             }
         },
         _get_jq_invitation_popup: function() {
-            return er_ergulpvvv_utils.is_new_style_page() ? jQuery("#li-modal-container").children(".send-invite") : er_ergulpvvv_utils.is_sales_navigator_profile_vary() ? er_ergulpvvv_sn_vary_helper.get_jq_invitation_popup() : jQuery("#dialog")
+            return er_ergulpvvv_utils.is_new_style_page() ? jQuery(".send-invite") : er_ergulpvvv_utils.is_sales_navigator_profile_vary() ? er_ergulpvvv_sn_vary_helper.get_jq_invitation_popup() : jQuery("#dialog")
         },
         _is_invitation_popup_open: function() {
             var e = this._get_jq_invitation_popup();
