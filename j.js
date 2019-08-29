@@ -30642,7 +30642,7 @@ var er_ergulpvvv_remover_alumni_collector = window.er_ergulpvvv_remover_alumni_c
             if (this.is_mode_on_and_tab_active()) {
                 e || (e = $.Deferred());
                 var r = this,
-                    i = $("#li-modal-container").find(".modal-wormhole.send-invite");
+                    i = $(".send-invite");
                 if (0 == i.length) setTimeout(function() {
                     r._ns_process_invitation_popup(e, _, t)
                 }, 100);
